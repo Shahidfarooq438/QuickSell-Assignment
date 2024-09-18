@@ -1,0 +1,50 @@
+.main-parent{
+    margin-bottom: 20px;
+    width: 20%;
+}
+
+.main-parent .title-container{
+    width: 90%;
+}
+
+.title-container .title-head-left{
+    float: left;
+}
+
+.title-head-left img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin:0 10px;
+}
+
+.title-container .title-head-right{
+    float: right;
+}
+
+.title-head-right img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.sort-cards
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.return-div{
+    height: 1000px;
+    padding: 20px;
+    display: flex;
+    background-color: rgba(244,245,249,255);
+    flex-wrap: wrap;
+}
+@media screen and (max-width:1036px){
+    .return-div .main-parent{
+        width:30vw;
+    }
+}
